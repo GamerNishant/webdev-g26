@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!-- <script>
+        let flag = false;
+        function changeName(){
+            if(flag)
+        {
+            document.getElementById("change").innerHTML = "Hello, Nishant";
+            flag = !flag;
+        }
+        else{
+            document.getElementById("change").innerHTML = "Hello, Stranger";
+            flag = !flag;
+        }
+
+        }
+        
+    </script> -->
+    
+    <script>
+        let name = prompt("Enter your name:")
+        let value = "Danger! " + name
+        window.alert(value)
+    </script>
+
+</head>
+<body>
+    <h1 id="change" >Hello, Nishant</h1>
+    <button onclick="changeName()" >click me</button>
+</body>
+</html>
